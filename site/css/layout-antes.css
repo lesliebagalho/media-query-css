@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* <!-- Galaxy Fold --> */
+@media screen and (max-width: 280px){
+    .container{
+        width: 100%;
+        height: 100vh;
+        background-color: blue;
+    }
+
+    .media-2, .media-3, .media-4, .media-5, .media-6, .media-7  {
+        display: none;
+    }
+}
+
+/* <!-- iPhone X --> */
+@media screen and (min-width: 280.01px) and (max-width: 375px){
+    .container{
+        width: 100%;
+        height: 100vh;
+        background-color: yellow;
+    }
+
+    .media-1, .media-3, .media-4, .media-5, .media-6, .media-7  {
+        display: none;
+    }
+}
+
+/* <!-- Smartphone --> */
+@media screen and (min-width: 375.01px) and (max-width: 576px){
+    .container{
+        width: 100%;
+        height: 100vh;
+        background-color: green;
+    }
+
+    .media-1, .media-2, .media-4, .media-5, .media-6, .media-7  {
+        display: none;
+    }
+}
+
+/* <!-- Tablet --> */
+@media screen and (min-width: 576.01px) and (max-width: 768px){
+    .container{
+        width: 100%;
+        height: 100vh;
+        background-color: brown;
+    }
+
+    .media-1, .media-2, .media-3, .media-5, .media-6, .media-7  {
+        display: none;
+    }
+}
+
+/* <!-- Tablet Grande --> */
+@media screen and (min-width: 768.01px) and (max-width: 992px){
+    .container{
+        width: 100%;
+        height: 100vh;
+        background-color: violet;
+    }
+
+    .media-1, .media-2, .media-3, .media-4, .media-6, .media-7  {
+        display: none;
+    }
+}
+
+/* <!-- Desktop --> */
+@media screen and (min-width: 992.01px) and (max-width: 1200px){
+    .container{
+        width: 100%;
+        height: 100vh;
+        background: yellowgreen;
+    }
+
+    .media-1, .media-2, .media-3, .media-4, .media-5, .media-7  {
+        display: none;
+    }
+}
+
+/* <!-- Desktop Grande --> */
+@media screen and (min-width: 1200.01px){
+    .container{
+        width: 100%;
+        height: 100vh;
+        background: red;
+    }
+
+    .media-1, .media-2, .media-3, .media-4, .media-5, .media-6  {
+        display: none;
+    }
+}
